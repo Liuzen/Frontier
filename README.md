@@ -63,3 +63,44 @@ Package stringr digunakan untuk membersihkan serta melakukan persiapan data dan 
 
 ![Flowchart proses kerja](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing2.jpg)
 
+## Screenshots
+
+### Top Trending Tweets Today
+
+![SS1](https://github.com/Liuzen/Frontier/blob/master/Image/1.png)
+
+### WordCloud
+
+![SS2](https://github.com/Liuzen/Frontier/blob/master/Image/2.png)
+![SS3](https://github.com/Liuzen/Frontier/blob/master/Image/3.png)
+
+### Histogram
+
+![SS4](https://github.com/Liuzen/Frontier/blob/master/Image/4.png)
+![SS5](https://github.com/Liuzen/Frontier/blob/master/Image/5.png)
+![SS6](https://github.com/Liuzen/Frontier/blob/master/Image/6.png)
+![SS7](https://github.com/Liuzen/Frontier/blob/master/Image/7.png)
+
+### Table
+
+![SS8](https://github.com/Liuzen/Frontier/blob/master/Image/8.png)
+
+### Top Tweeters
+
+![SS9](https://github.com/Liuzen/Frontier/blob/master/Image/9.png)
+![SS10](https://github.com/Liuzen/Frontier/blob/master/Image/10.png)
+
+### Top Hashtags of User
+
+![SS11](https://github.com/Liuzen/Frontier/blob/master/Image/11.png)
+
+### Article
+
+![SS14](https://github.com/Liuzen/Frontier/blob/master/Image/14.png)
+![SS15](https://github.com/Liuzen/Frontier/blob/master/Image/15.png)
+
+### Article Table
+
+![SS16](https://github.com/Liuzen/Frontier/blob/master/Image/16.png)
+
+
