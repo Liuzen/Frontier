@@ -1,2 +1,0 @@
-# Frontier
-Project
