@@ -84,48 +84,61 @@ tm is for text mining in R.
 
 - RJSONIO
 
-RJSONIO adalah paket yang memungkinkan konversi ke dan dari data dalam format notasi objek Javascript (JSON). Hal ini memungkinkan objek R untuk dimasukkan ke Javascript / ECMAScript / ActionScript code dan memungkinkan programmer R untuk membaca dan mengkonversi konten JSON ke objek R.
+RJSONIO is a package that allows conversion to and from data in Javascript object notation (JSON) format. This allows R objects to be inserted into Javascript/ECMAScript/ActionScript code and allows R programmers to read and convert JSON content to R objects.
 
 -tidyr 
+
 tidyr makes it easy to tidy up your data. Neat data is easy to use data: easy to do munge (with dplyr), visualize (with ggplot2 or ggvis) and model (with hundreds of R modeling packages).
 
 -jsonlite 
+
 The jsonlite package is a web optimized JSON parser / generator. Its main strength is that it implements two-way mapping between JSON data and the most important R data type .
 
 - lubridate
+
 lubridate is an R package that facilitates work with date and time.
 
 - dplyr 
+
 dplyr is the iteration of plyr, focusing only on the data frame. dplyr is faster and has a more consistent API
 
 - httpuv 
+
 httpuv provides low-level sockets and protocol support to handle HTTP and WebSocket requests directly from within R.
 
 - openssl 
+
 openssl is a toolkit for Encryption, Signature, and OpenSSL Based Certificates
 
 - Cairo 
+
 The R graphics device uses the cairo graphics library to create high-quality bitmaps (PNG, JPEG, TIFF), vectors (PDF, SVG, PostScript) and display (X11 and Win32) outputs.
 
 - qdap 
+
 qdap serves to automate many tasks related to the quantitative discourse analysis of discourse transcripts including the number of sentence frequency variations, words, sentences, speech turns, syllables and other various analytical tasks. This package provides a parsing tool for preparing data transcript.
 
 - tidytext 
+
 tidytext allows data mining for word processing and sentiment analysis using 'dplyr', 'ggplot2', and other neat tools.
 
 - tidyverse 
+
 tidyverse is a collection of R packages designed for data science. All packages share an underlying philosophy and common API.
 
 - plyr 
 plyr is a set of tools that solve a set of common problems: you need to solve big problems into manageable parts, operate on each piece and then put all the pieces back together.
 
 - gridExtra 
+
 gridExtra provides a number of user-level functions to work with a "grid" graph, especially for organizing multiple grid-based plots on a page, and drawing tables.
 
 - broom 
+
 Broom package takes the output of messy built-in functions in R, like lm, nls, or t.test, and turns them into neat data frames.
 
 - purrr 
+
 purrr improves the functional programming toolkit (FP) in R by providing a complete and consistent set of tools to work with functions and vectors.
 
 ## Flowchart of Twitter Sentiment Analysis 
