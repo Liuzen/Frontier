@@ -64,6 +64,7 @@ Shiny adalah Paket R untuk menyebarkan aplikasi web menggunakan back-end R. Shin
 Wordcloud2 adalah representasi visual dari data teks. Tag biasanya kata tunggal, dan pentingnya setiap tag ditunjukkan dengan ukuran font atau warna.
 
 - ROAuth
+
 Menyediakan interface ke spesifikasi OAuth 1.0 yang memungkinkan user untuk mengotentikasi melalui OAuth ke server pilihan mereka.
 
 - RCurl
@@ -135,6 +136,7 @@ dplyr adalah iterasi dari plyr, memfokuskan hanya pada frame data. dplyr lebih c
 lubridate adalah package R yang memudahkan pekerjaan dengan tanggal dan waktu.
 
 - jsonlite
+
 Paket jsonlite adalah parser / generator JSON yang dioptimalkan untuk web. Kekuatan utamanya adalah bahwa ia mengimplementasikan pemetaan dua arah antara data JSON dan tipe data R yang paling penting.
 
 - tidyr
