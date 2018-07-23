@@ -86,11 +86,11 @@ tm is for text mining in R.
 
 RJSONIO is a package that allows conversion to and from data in Javascript object notation (JSON) format. This allows R objects to be inserted into Javascript/ECMAScript/ActionScript code and allows R programmers to read and convert JSON content to R objects.
 
--tidyr 
+- tidyr 
 
 tidyr makes it easy to tidy up your data. Neat data is easy to use data: easy to do munge (with dplyr), visualize (with ggplot2 or ggvis) and model (with hundreds of R modeling packages).
 
--jsonlite 
+- jsonlite 
 
 The jsonlite package is a web optimized JSON parser / generator. Its main strength is that it implements two-way mapping between JSON data and the most important R data type .
 
@@ -127,6 +127,7 @@ tidytext allows data mining for word processing and sentiment analysis using 'dp
 tidyverse is a collection of R packages designed for data science. All packages share an underlying philosophy and common API.
 
 - plyr 
+
 plyr is a set of tools that solve a set of common problems: you need to solve big problems into manageable parts, operate on each piece and then put all the pieces back together.
 
 - gridExtra 
