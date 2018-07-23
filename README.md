@@ -80,7 +80,7 @@ Flexibly restructure and aggregate data using just two functions: melt and cast.
 
 - tm
 
-tm is for text mining in R.
+tm is a framework for text mining applications within R.
 
 - RJSONIO
 
