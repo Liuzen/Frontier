@@ -185,11 +185,11 @@ tidyr memudahkan untuk merapikan data Anda. Data yang rapi adalah data yang muda
 
 ### _Article_
 
-![SS14](https://github.com/Liuzen/Frontier/blob/master/Image/14.png)
-![SS15](https://github.com/Liuzen/Frontier/blob/master/Image/15.png)
+![SS12](https://github.com/Liuzen/Frontier/blob/master/Image/12.jpg)
+![SS13](https://github.com/Liuzen/Frontier/blob/master/Image/13.jpg)
 
 ### _Article Table_
 
-![SS16](https://github.com/Liuzen/Frontier/blob/master/Image/16.png)
+![SS14](https://github.com/Liuzen/Frontier/blob/master/Image/14.jpg)
 
 
