@@ -1,47 +1,46 @@
-# _Sentiment Analysis from New York Times and Twitter_ 
+# Sentiment Analysis from New York Times and Twitter 
 
 ## _Project Member_
-| No | Foto Profile | Nama Lengkap | Github ID | Nomor Induk Mahasiswa |
+| No | Photo Profile | Full Name | Github ID | Student ID |
 | ------ | ------ | ------ | ------ | ------ |
 | 1. | <img src="https://avatars.githubusercontent.com/elaine05" width=100 height=100 /> | Nathania Serafina | <a title="elaine05" href="https://github.com/elaine05">@elaine05</a> | 00000015730 | 
 | 2. | <img src="https://avatars.githubusercontent.com/liuzen" width=100 height=100/> | Hendrian Lunardi | <a title="@liuzen" href="https://github.com/liuzen">@liuzen</a> | 00000012778 |
 | 3. | <img src="https://avatars.githubusercontent.com/se4lonline" width=100 height=100/> | Leonardo Jivalino | <a title="@se4lonline" href="https://github.com/se4lonline">@se4lonline</a> | 00000015443 |
 
-## Instalasi
-- Kloning _repository_ ini
+## Installation
+- Clone this repository
   - `git clone https://github.com/Liuzen/Frontier`
-- Buka RStudio dan buka file R yang terdapat pada _directory_ tersebut
-- Instal beberapa _package_:
+- Open RStudio and open R File from the directory
+- Install some packages:
   - `shiny` dengan perintah `install.packages("shiny")`
-  - `wordcloud2` dengan perintah `install.packages("wordcloud2")`
-  - `shinythemes` dengan perintah `install.packages("shinythemes")`
-  - `twitteR` dengan perintah `install.packages("twitteR")`
-  - `stringr` dengan perintah `install.packages("stringr")`
-  - `ROAuth` dengan perintah `install.packages("ROAuth")`
-  - `RCurl` dengan perintah `install.packages("RCurl")`
-  - `ggplot2` dengan perintah `install.packages("ggplot2")`
-  - `reshape` dengan perintah `install.packages("reshape")`
-  - `tm` dengan perintah `install.packages("tm")`
-  - `RJSONIO` dengan perintah `install.packages("RJSONIO")`
-  - `purrr` dengan perintah `install.packages("purrr")`
-  - `broom` dengan perintah `install.packages("broom")`
-  - `gridExtra` dengan perintah `install.packages("gridExtra")`
-  - `plyr` dengan perintah `install.packages("plyr")`
-  - `tidyverse` dengan perintah `install.packages("tidyverse")`
-  - `tidytext` dengan perintah `install.packages("tidytext")`
-  - `qdap` dengan perintah `install.packages("qdap")`
-  - `Cairo` dengan perintah `install.packages("Cairo")`
-  - `openssl` dengan perintah `install.packages("openssl")`
-  - `httpuv` dengan perintah `install.packages("httpuv")`
-  - `dplyr` dengan perintah `install.packages("dplyr")`
-  - `lubridate` dengan perintah `install.packages("lubridate")`
-  - `jsonlite` dengan perintah `install.packages("jsonlite")`
-  - `tidyr` dengan perintah `install.packages("tidyr")`
-  - `stringr` dengan perintah `install.packages("stringr")`
-  - `rtimes` dengan perintah `install.packages("rtimes")`
+  - `wordcloud2` with command `install.packages("wordcloud2")`
+  - `shinythemes` with command `install.packages("shinythemes")`
+  - `twitteR` with command `install.packages("twitteR")`
+  - `stringr` with command `install.packages("stringr")`
+  - `ROAuth` with command `install.packages("ROAuth")`
+  - `RCurl` with command `install.packages("RCurl")`
+  - `ggplot2` with command `install.packages("ggplot2")`
+  - `reshape` with command `install.packages("reshape")`
+  - `tm` with command `install.packages("tm")`
+  - `RJSONIO` with command `install.packages("RJSONIO")`
+  - `purrr` with command `install.packages("purrr")`
+  - `broom` with command `install.packages("broom")`
+  - `gridExtra` with command `install.packages("gridExtra")`
+  - `plyr` with command `install.packages("plyr")`
+  - `tidyverse` with command `install.packages("tidyverse")`
+  - `tidytext` with command `install.packages("tidytext")`
+  - `qdap` with command `install.packages("qdap")`
+  - `Cairo` with command `install.packages("Cairo")`
+  - `openssl` with command `install.packages("openssl")`
+  - `httpuv` with command `install.packages("httpuv")`
+  - `dplyr` with command `install.packages("dplyr")`
+  - `lubridate` with command `install.packages("lubridate")`
+  - `jsonlite` with command `install.packages("jsonlite")`
+  - `tidyr` with command `install.packages("tidyr")`
+  - `stringr` with command `install.packages("stringr")`
+  - `rtimes` with command `install.packages("rtimes")`
   
-
-## _Packages_
+## Packages
 
 - twitteR
 
@@ -144,51 +143,51 @@ Paket jsonlite adalah parser / generator JSON yang dioptimalkan untuk web. Kekua
 tidyr memudahkan untuk merapikan data Anda. Data yang rapi adalah data yang mudah digunakan: mudah untuk melakukan munge (dengan dplyr), memvisualisasikan (dengan ggplot2 atau ggvis) dan memodelkan (dengan ratusan paket pemodelan R).
 
 
-## Cara kerja _Sentiment Analysis_ pada Twitter
+## Flowchart of Twitter Sentiment Analysis 
 
-![Flowchart twitter](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing1.jpg)
+![Flowchart process 1](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing1.jpg)
 
-## Cara kerja _Sentiment Analysis_ pada New York Times
+## Flowchart of New York Times Sentiment Analysis 
 
-![Flowchart proses kerja](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing2.jpg)
+![Flowchart process 2](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing2.jpg)
 
-## _Screenshots_
+## Screenshots
 
-### _Top Trending Tweets Today_
+### Top Trending Tweets Today
 
 ![SS1](https://github.com/Liuzen/Frontier/blob/master/Image/1.png)
 
-### _WordCloud_
+### WordCloud
 
 ![SS2](https://github.com/Liuzen/Frontier/blob/master/Image/2.png)
 ![SS3](https://github.com/Liuzen/Frontier/blob/master/Image/3.png)
 
-### _Histogram_
+### Histogram
 
 ![SS4](https://github.com/Liuzen/Frontier/blob/master/Image/4.png)
 ![SS5](https://github.com/Liuzen/Frontier/blob/master/Image/5.png)
 ![SS6](https://github.com/Liuzen/Frontier/blob/master/Image/6.png)
 ![SS7](https://github.com/Liuzen/Frontier/blob/master/Image/7.png)
 
-### _Table_
+### Table
 
 ![SS8](https://github.com/Liuzen/Frontier/blob/master/Image/8.png)
 
-### _Top Tweeters_
+### Top Tweeters
 
 ![SS9](https://github.com/Liuzen/Frontier/blob/master/Image/9.png)
 ![SS10](https://github.com/Liuzen/Frontier/blob/master/Image/10.png)
 
-### _Top Hashtags of User_
+### Top Hashtags of User
 
 ![SS11](https://github.com/Liuzen/Frontier/blob/master/Image/11.png)
 
-### _Article_
+### Article
 
 ![SS12](https://github.com/Liuzen/Frontier/blob/master/Image/12.jpg)
 ![SS13](https://github.com/Liuzen/Frontier/blob/master/Image/13.jpg)
 
-### _Article Table_
+### Article Table
 
 ![SS14](https://github.com/Liuzen/Frontier/blob/master/Image/14.jpg)
 
