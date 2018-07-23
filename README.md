@@ -1,9 +1,9 @@
 # Sentiment Analysis from New York Times and Twitter 
 
-## _Project Member_
-| No | Photo Profile | Full Name | Github ID | Student ID |
+## Project Member
+| No | Photo Profile | Member Name | Github ID | Student ID |
 | ------ | ------ | ------ | ------ | ------ |
-| 1. | <img src="https://avatars.githubusercontent.com/elaine05" width=100 height=100 /> | Nathania Serafina | <a title="elaine05" href="https://github.com/elaine05">@elaine05</a> | 00000015730 | 
+| 1. | <img src="https://avatars.githubusercontent.com/elaine05" width=100 height=100 /> | Nathania S | <a title="elaine05" href="https://github.com/elaine05">@elaine05</a> | 00000015730 | 
 | 2. | <img src="https://avatars.githubusercontent.com/liuzen" width=100 height=100/> | Hendrian Lunardi | <a title="@liuzen" href="https://github.com/liuzen">@liuzen</a> | 00000012778 |
 | 3. | <img src="https://avatars.githubusercontent.com/se4lonline" width=100 height=100/> | Leonardo Jivalino | <a title="@se4lonline" href="https://github.com/se4lonline">@se4lonline</a> | 00000015443 |
 
@@ -12,7 +12,7 @@
   - `git clone https://github.com/Liuzen/Frontier`
 - Open RStudio and open R File from the directory
 - Install some packages:
-  - `shiny` dengan perintah `install.packages("shiny")`
+  - `shiny` with command `install.packages("shiny")`
   - `wordcloud2` with command `install.packages("wordcloud2")`
   - `shinythemes` with command `install.packages("shinythemes")`
   - `twitteR` with command `install.packages("twitteR")`
@@ -44,104 +44,89 @@
 
 - twitteR
 
-twitteR adalah R package yang menyediakan akses ke API Twitter sehingga memungkinkan kita melakukan crawling data pada Twitter. Untuk mendapatkan API key dan access token dari Twitter, masuk ke halaman website https://apps.twitter.com/.
+twitteR is an R package which provides access to the Twitter API. Most functionality of the API is supported, with a bias towards API calls that are more useful in data analysis as opposed to daily interaction. 
 
 - rtimes
 
-rtimes adalah R package yang menyediakan akses ke API New York Times sehingga memungkinkan kita melakukan crawling data pada New York Times. Untuk mendapatkan API key dari New York Times, masuk ke halaman website https://developer.nytimes.com/.
+Interface to Congress, Campaign Finance, Article Search, and Geographic 'APIs' from the New York Times (<http://developer.nytimes.com/>) and 'ProPublica' (<https://www.propublica.org/datastore/apis>). This client covers a subset of the New York Times and 'ProPublica' 'APIs'.
 
 - stringr
 
-Package stringr digunakan untuk membersihkan serta melakukan persiapan data dan menangani masalah string yang umum, yaitu untuk menghasilkan output string yang lebih bersih dan rapi.
+stringr is a neat package for dealing with strings (text) and data cleaning/formatting
 
 - shiny
 
-Shiny adalah Paket R untuk menyebarkan aplikasi web menggunakan back-end R. Shiny membawa semua kelebihan R ke aplikasi web sederhana dengan interaktivitas, input user, dan visualisasi interaktif.
+shiny is a web application framework for R and easy to build interactive web applications with R. Automatic "reactive" binding between inputs and outputs and extensive prebuilt widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.
 
 - wordcloud2
 
-Wordcloud2 adalah representasi visual dari data teks. Tag biasanya kata tunggal, dan pentingnya setiap tag ditunjukkan dengan ukuran font atau warna.
+wordcloud2 is a visual representation of text data. Tags are usually single words, and the importance of each tag is shown with font size or color. 
 
 - ROAuth
 
-Menyediakan interface ke spesifikasi OAuth 1.0 yang memungkinkan user untuk mengotentikasi melalui OAuth ke server pilihan mereka.
+Provides an interface to the OAuth 1.0 specification allowing users to authenticate via OAuth to the server of their choice.
 
 - RCurl
 
-Menyediakan fungsi untuk memungkinkan seseorang menyusun permintaan HTTP umum dan menyediakan fungsi yang mudah digunakan untuk mengambil URI, mendapatkan & mengirim formulir, dll. Dan memproses hasil yang dikembalikan oleh server Web. Hal Ini memberikan kendali yang baik atas koneksi HTTP / FTP / ... dan bentuk permintaan sambil menyediakan tingkat interface yang lebih tinggi daripada yang tersedia dengan hanya menggunakan koneksi soket R.
+Provides functions to allow one to compose general HTTP requests and provides convenient functions to fetch URIs, get & post forms, etc. and process the results returned by the Web server. This provides a great deal of control over the HTTP/FTP/... connection and the form of the request while providing a higher-level interface than is available just using R socket connections
   
 - ggplot2
 
-ggplot 2 adalah paket visualisasi data yang disempurnakan untuk R. ggplot2 dapat membuat grafis multi-layered yang menakjubkan dengan mudah.
+ggplot2 is a system for 'declaratively' creating graphics, based on "The Grammar of Graphics". You provide the data, tell 'ggplot2' how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
 
 - reshape
 
-reshape memungkinkan Anda secara fleksibel merestrukturisasi dan menggabungkan data hanya dengan menggunakan dua fungsi, yaitu melt dan cast. reshape pada dasarnya memungkinkan kita untuk mengatur ulang data kita sesuai dengan hirarki yang dibutuhkan.
+Flexibly restructure and aggregate data using just two functions: melt and cast.
 
 - tm
 
-tm adalah Kerangka untuk aplikasi text mining dalam R.
+tm is for text mining in R.
 
 - RJSONIO
 
 RJSONIO adalah paket yang memungkinkan konversi ke dan dari data dalam format notasi objek Javascript (JSON). Hal ini memungkinkan objek R untuk dimasukkan ke Javascript / ECMAScript / ActionScript code dan memungkinkan programmer R untuk membaca dan mengkonversi konten JSON ke objek R.
 
-- purrr 
+-tidyr 
+tidyr makes it easy to tidy up your data. Neat data is easy to use data: easy to do munge (with dplyr), visualize (with ggplot2 or ggvis) and model (with hundreds of R modeling packages).
 
-purrr meningkatkan toolkit pemrograman fungsional (FP) R dengan menyediakan seperangkat alat yang lengkap dan konsisten untuk bekerja dengan fungsi dan vektor.
-
-- broom 
-
-Package broom mengambil output fungsi built-in yang berantakan dalam R, seperti lm, nls, atau t.test, dan mengubahnya menjadi data frame yang rapi.
-
-- gridExtra
-
-gridExtra menyediakan sejumlah fungsi user-level untuk bekerja dengan grafik "grid", terutama untuk mengatur beberapa plot berbasis grid pada halaman, dan menggambar tabel.
-  
-- plyr
-
-plyr adalah seperangkat alat yang menyelesaikan satu set masalah umum: Anda perlu memecahkan masalah besar menjadi bagian-bagian yang dapat dikelola, beroperasi pada masing-masing bagian dan kemudian meletakkan semua potongan kembali bersama.
-
-- tidyverse
-
-tidyverse adalah koleksi package R yang dirancang untuk data science. Semua paket berbagi filosofi yang mendasari dan API umum.
-
-- tidytext
-
-tidytext memungkinkan data mining untuk pengolah kata dan analisis sentimen menggunakan 'dplyr', 'ggplot2', dan alat-alat lain yang rapi.
-
-- qdap
-
-qdap berfungsi untuk mengotomatiskan banyak tugas yang terkait dengan analisis wacana kuantitatif dari transkrip berisi wacana termasuk jumlah frekuensi jenis kalimat, kata-kata, kalimat, giliran bicara, suku kata dan berbagai macam tugas analisis lainnya. Paket ini menyediakan alat penguraian untuk menyiapkan data transkrip.
-
-- Cairo
-
-Perangkat grafis R menggunakan perpustakaan grafis cairo untuk membuat bitmap berkualitas tinggi (PNG, JPEG, TIFF), vektor (PDF, SVG, PostScript) dan tampilan (X11 dan Win32) output.
-
-- openssl
-
-openssl adalah toolkit untuk Enkripsi, Tanda Tangan, dan Sertifikat Berdasarkan OpenSSL
-
-- httpuv
-
-httpuv menyediakan low-level socket dan dukungan protokol untuk menangani permintaan HTTP dan WebSocket langsung dari dalam R.
-
-- dplyr
-
-dplyr adalah iterasi dari plyr, memfokuskan hanya pada frame data. dplyr lebih cepat dan memiliki API yang lebih konsisten.
+-jsonlite 
+The jsonlite package is a web optimized JSON parser / generator. Its main strength is that it implements two-way mapping between JSON data and the most important R data type .
 
 - lubridate
+lubridate is an R package that facilitates work with date and time.
 
-lubridate adalah package R yang memudahkan pekerjaan dengan tanggal dan waktu.
+- dplyr 
+dplyr is the iteration of plyr, focusing only on the data frame. dplyr is faster and has a more consistent API
 
-- jsonlite
+- httpuv 
+httpuv provides low-level sockets and protocol support to handle HTTP and WebSocket requests directly from within R.
 
-Paket jsonlite adalah parser / generator JSON yang dioptimalkan untuk web. Kekuatan utamanya adalah bahwa ia mengimplementasikan pemetaan dua arah antara data JSON dan tipe data R yang paling penting.
+- openssl 
+openssl is a toolkit for Encryption, Signature, and OpenSSL Based Certificates
 
-- tidyr
+- Cairo 
+The R graphics device uses the cairo graphics library to create high-quality bitmaps (PNG, JPEG, TIFF), vectors (PDF, SVG, PostScript) and display (X11 and Win32) outputs.
 
-tidyr memudahkan untuk merapikan data Anda. Data yang rapi adalah data yang mudah digunakan: mudah untuk melakukan munge (dengan dplyr), memvisualisasikan (dengan ggplot2 atau ggvis) dan memodelkan (dengan ratusan paket pemodelan R).
+- qdap 
+qdap serves to automate many tasks related to the quantitative discourse analysis of discourse transcripts including the number of sentence frequency variations, words, sentences, speech turns, syllables and other various analytical tasks. This package provides a parsing tool for preparing data transcript.
 
+- tidytext 
+tidytext allows data mining for word processing and sentiment analysis using 'dplyr', 'ggplot2', and other neat tools.
+
+- tidyverse 
+tidyverse is a collection of R packages designed for data science. All packages share an underlying philosophy and common API.
+
+- plyr 
+plyr is a set of tools that solve a set of common problems: you need to solve big problems into manageable parts, operate on each piece and then put all the pieces back together.
+
+- gridExtra 
+gridExtra provides a number of user-level functions to work with a "grid" graph, especially for organizing multiple grid-based plots on a page, and drawing tables.
+
+- broom 
+Broom package takes the output of messy built-in functions in R, like lm, nls, or t.test, and turns them into neat data frames.
+
+- purrr 
+purrr improves the functional programming toolkit (FP) in R by providing a complete and consistent set of tools to work with functions and vectors.
 
 ## Flowchart of Twitter Sentiment Analysis 
 
