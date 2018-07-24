@@ -50,7 +50,7 @@ Model fit were done in the following way:
 
   -	After get the list of top 20 user, we may choose one with the highest hashtag frequency to analyze, or we may able to search other user (not list in top 20), then we may be able to view the trends of hashtag frequencies for a certain user as time has passed.  
 ![f](https://github.com/Liuzen/Frontier/blob/master/Image/f.png)
-All slopes for user are negative, which means he/she has not tweeted at higher rate using any specific hashtag/word, but instead used a variety of different word, he tweets earlier contained the hashtag shown in this plot at higher proportions. Hashtag he uses when post a new tweet, like xxxx, yyyy has gone down in frequency.
+All slopes for user are negative, which means he/she has not tweeted at higher rate using any specific hashtag/word, but instead used a variety of different word, he tweets earlier contained the hashtag shown in this plot at higher proportions. Hashtag he uses when post a new tweet, like mahasiswa, uph has gone down in frequency.
 
 - NYT-articles
 We want to examine which words commonly occur together in same article section. To do this, we tokenize the sentence into word, then we find the correlation within words using Pearson method.
