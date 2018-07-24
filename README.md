@@ -7,6 +7,35 @@
 | 2. | <img src="https://avatars.githubusercontent.com/liuzen" width=100 height=100/> | Hendrian Lunardi | <a title="@liuzen" href="https://github.com/liuzen">@liuzen</a> | 00000012778 |
 | 3. | <img src="https://avatars.githubusercontent.com/se4lonline" width=100 height=100/> | Leonardo Jivalino | <a title="@se4lonline" href="https://github.com/se4lonline">@se4lonline</a> | 00000015443 |
 
+## Sentiment Analysis
+Our sentiment analysis was done using a lexicon-approach or so-called dictionary-based method. Lexicon approach find a total sentiment of a piece of text by adding up the individual senti-score for each word in the text.
+
+![posneg](https://github.com/Liuzen/Frontier/blob/master/Image/posneg.jpg)
+
+The AFINN lexicon is based on unigram, it assigns words with a score that runs between -5 and 5, with negative scores indicating negative sentiment and positive scores indicating positive sentiment.
+
+### Sentiment analysis using lexicon approach was done in the following way:
+-	The data collected is live data, it contains many information, i.e. for twitter; such as the user who tweet (screenName), the tweets text, the tweets location (lat and long), and many others. For NYT, snippet, headline, section, etc. But since our goal are to determine the sentiment of the tweet, we will focus on tweets text only.
+-	The collected data contain many noise, such as punctuation, number, and others (especially twitter data). Therefore, we do some cleaning.
+- We then eliminate some commonly word (stopwords), such as “and,” “the”, then, of, it, etc.
+- The clean text was then tokenize into a single word (unigram).  The unigram was then match to the lexicon to get its sentiment score, if the word does not exist in lexicon, it simply ignores it. 
+
+e.g. 
+the first half of the movie was amazing, it a pity the ending suck, become 
+![word1](https://github.com/Liuzen/Frontier/blob/master/Image/word1.jpg)
+![word2](https://github.com/Liuzen/Frontier/blob/master/Image/word2.jpg)
+
+## Hashtag trend-analysis
+The idea was to fit GLM to predict the word frequency with the relative point of time. If the coefficient of the point of time is very unlikely to be zero (p value < 0.5), we say that the frequency of this word has changed over time. 
+
+Model fit were done in the following way: 
+-	We were using username to search the list of hashtag/words he/she use over a certain period of time, or we can view the top 20 tweeters based on their word/hashtag frequency over time, pick one we want to analyze.
+-	Extract the hashtag from user tweet, this can be done by userTimeLine function, which will retrieve the tweet of a given user, do some cleaning, and extract the list of hashtag.
+-	Next, we define a time variable to defines the unit of time (time bin) each tweet was posted in.
+-	Then we count the how many times the user uses that hashtag in that time bin, the total number of all hashtag the user use, and the number of hashtag usage over the whole time (i.e. year).  Thus, we are able to use these variable to do some modelling.
+-	The GLM (Generalized Linear Model) was used for modelling, the model resulting a slopes for each hashtag along with its p.value.   
+
+
 ## Installation
 - Clone this repository
   - `git clone https://github.com/Liuzen/Frontier`
