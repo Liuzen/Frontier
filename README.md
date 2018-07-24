@@ -35,6 +35,31 @@ Model fit were done in the following way:
 -	Then we count the how many times the user uses that hashtag in that time bin, the total number of all hashtag the user use, and the number of hashtag usage over the whole time (i.e. year).  Thus, we are able to use these variable to do some modelling.
 -	The GLM (Generalized Linear Model) was used for modelling, the model resulting a slopes for each hashtag along with its p.value.   
 
+## Visualization
+- Twitter
+  -	We visualize word contribution toward positive and negative text, as expected for positive sentence, the common words are proud, good, wow, best, love, etc. While for negative are illegal, idiot, shocking, charged, bullshit, worst, etc. 
+![a](https://github.com/Liuzen/Frontier/blob/master/Image/a.png)
+
+  -	We also show the distribution of word based on its score across negative and positive class (histogram). We want to know the distribution of score within class, since for positive class we have 5 score value (0,1,2,3,4,5), so does the negative class. 
+![b](https://github.com/Liuzen/Frontier/blob/master/Image/b.png)
+![c](https://github.com/Liuzen/Frontier/blob/master/Image/c.png)
+
+  -	We want to know the which group of user using a certain hashtag and how often the use of the hashtag. Therefore, we extract the list of user, which his/her tweets contain the hashtag, and count the number of hashtag usage. Hence, we can visualize the top 20 tweeters for a given hashtag. 
+![d](https://github.com/Liuzen/Frontier/blob/master/Image/d.png)
+![e](https://github.com/Liuzen/Frontier/blob/master/Image/e.png)
+
+  -	After get the list of top 20 user, we may choose one with the highest hashtag frequency to analyze, or we may able to search other user (not list in top 20), then we may be able to view the trends of hashtag frequencies for a certain user as time has passed.  
+![f](https://github.com/Liuzen/Frontier/blob/master/Image/f.png)
+All slopes for user are negative, which means he/she has not tweeted at higher rate using any specific hashtag/word, but instead used a variety of different word, he tweets earlier contained the hashtag shown in this plot at higher proportions. Hashtag he uses when post a new tweet, like xxxx, yyyy has gone down in frequency.
+
+- NYT-articles
+We want to examine which words commonly occur together in same article section. To do this, we tokenize the sentence into word, then we find the correlation within words using Pearson method.
+![g](https://github.com/Liuzen/Frontier/blob/master/Image/g.png)
+From above image, we can see the article contain trump, trade, war keywords occur in many section, such as Asia pacific, Television, book review, Economy, Politics, etc. The width of the line indicates how strong their correlation, in other words, the thicker the line, the higher the correlations. Meanwhile, we can see across all article section the sentiments towards trump are negative.
+![h](https://github.com/Liuzen/Frontier/blob/master/Image/h.png)
+  
+  
+
 
 ## Installation
 - Clone this repository
@@ -178,45 +203,3 @@ purrr improves the functional programming toolkit (FP) in R by providing a compl
 ## Flowchart of New York Times Sentiment Analysis 
 
 ![Flowchart process 2](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing2.jpg)
-
-## Screenshots
-
-### Top Trending Tweets Today
-
-![SS1](https://github.com/Liuzen/Frontier/blob/master/Image/1.png)
-
-### WordCloud
-
-![SS2](https://github.com/Liuzen/Frontier/blob/master/Image/2.png)
-![SS3](https://github.com/Liuzen/Frontier/blob/master/Image/3.png)
-
-### Histogram
-
-![SS4](https://github.com/Liuzen/Frontier/blob/master/Image/4.png)
-![SS5](https://github.com/Liuzen/Frontier/blob/master/Image/5.png)
-![SS6](https://github.com/Liuzen/Frontier/blob/master/Image/6.png)
-![SS7](https://github.com/Liuzen/Frontier/blob/master/Image/7.png)
-
-### Table
-
-![SS8](https://github.com/Liuzen/Frontier/blob/master/Image/8.png)
-
-### Top Tweeters
-
-![SS9](https://github.com/Liuzen/Frontier/blob/master/Image/9.png)
-![SS10](https://github.com/Liuzen/Frontier/blob/master/Image/10.png)
-
-### Top Hashtags of User
-
-![SS11](https://github.com/Liuzen/Frontier/blob/master/Image/11.png)
-
-### Article
-
-![SS12](https://github.com/Liuzen/Frontier/blob/master/Image/12.jpg)
-![SS13](https://github.com/Liuzen/Frontier/blob/master/Image/13.jpg)
-
-### Article Table
-
-![SS14](https://github.com/Liuzen/Frontier/blob/master/Image/14.jpg)
-
-
