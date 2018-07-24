@@ -196,10 +196,3 @@ Broom package takes the output of messy built-in functions in R, like lm, nls, o
 
 purrr improves the functional programming toolkit (FP) in R by providing a complete and consistent set of tools to work with functions and vectors.
 
-## Flowchart of Twitter Sentiment Analysis 
-
-![Flowchart process 1](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing1.jpg)
-
-## Flowchart of New York Times Sentiment Analysis 
-
-![Flowchart process 2](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing2.jpg)
