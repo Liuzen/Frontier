@@ -35,6 +35,15 @@ Model fit were done in the following way:
 -	Then we count the how many times the user uses that hashtag in that time bin, the total number of all hashtag the user use, and the number of hashtag usage over the whole time (i.e. year).  Thus, we are able to use these variable to do some modelling.
 -	The GLM (Generalized Linear Model) was used for modelling, the model resulting a slopes for each hashtag along with its p.value.   
 
+## Flowchart of Twitter Sentiment Analysis 
+
+![Flowchart process 1](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing1.jpg)
+
+## Flowchart of New York Times Sentiment Analysis 
+
+![Flowchart process 2](https://github.com/Liuzen/Frontier/blob/master/Image/Drawing2.jpg)
+
+
 ## Visualization
 - Twitter
   -	We visualize word contribution toward positive and negative text, as expected for positive sentence, the common words are proud, good, wow, best, love, etc. While for negative are illegal, idiot, shocking, charged, bullshit, worst, etc. 
